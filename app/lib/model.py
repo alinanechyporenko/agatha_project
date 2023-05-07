@@ -22,7 +22,7 @@ from keras.layers import Input
 from keras.layers.core import Dropout, Lambda
 from keras.layers.convolutional import Conv2D, Conv2DTranspose
 from keras.layers.pooling import MaxPooling2D
-from keras.layers.merge import concatenate
+from keras.layers import concatenate
 from keras.callbacks import EarlyStopping, ModelCheckpoint
 
 
